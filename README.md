@@ -32,6 +32,8 @@ $ git log
 ## .gitignore文件规则
 ### .gitignore 文件通常不需要推送到远程 GitHub 仓库中，因为它是本地的配置文件，不会影响其他用户，并且 GitHub 默认会忽略它。推送 .gitignore 文件通常不必要，其他开发者可以根据需要在本地创建自己的规则。
 ~~~bash
+# 忽略.gitignore
+.gitignore
 # 忽略所有 .log 文件
 *.log
 # 忽略 node_modules 文件夹
