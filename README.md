@@ -25,3 +25,11 @@ $ git push origin
 ~~~bash
 $ git log
 ~~~
+## .gitignore文件规则
+# 忽略所有 .log 文件
+$ *.log
+# 忽略 node_modules 文件夹
+$ node_modules/
+
+# 忽略一个特定的文件
+$ config.json
