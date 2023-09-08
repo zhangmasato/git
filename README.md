@@ -17,6 +17,10 @@ $ git rm a.txt
 ~~~bash
 $ git commit -m "add/rmove a.txt"
 ~~~
+## 查看本地库状态
+~~~bash
+$ git status
+~~~
 ## 本地库推到服务器库
 ~~~bash
 $ git push origin
